@@ -5,10 +5,11 @@ const Navbar = () => {
 
     const navLink = <>
 
-        <li className="text-white font-bold"><Link to={'/'}>Home</Link></li>
-        <li className="text-white font-bold"><Link to={'/contact'}>CONTACT Us</Link></li>
+        <li className="text-white font-bold"><Link to={'/'}>HOME</Link></li>
+        <li className="text-white font-bold"><Link to={'/contact'}>CONTACT US</Link></li>
         <li className="text-white font-bold"><Link to={'/dashboard'}>DASHBOARD</Link></li>
-        <li className="text-white font-bold"><Link to={'/meno'}>Our Menu</Link></li>
+        <li className="text-white font-bold"><Link to={'/meno'}>OUR MENU</Link></li>
+        <li className="text-white font-bold"><Link to={'/shop/salad'}>OUR SHOP</Link></li>
 
 
 

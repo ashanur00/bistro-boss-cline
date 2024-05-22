@@ -7,7 +7,7 @@ const MenuItem = ({ item }) => {
            <div className="mt-3 ml-3">
            <div className="flex justify-items-end">
                 <h2 className="font-cinzel text-xl">{name} --------------</h2>
-                <p className="ml-[100px] text-[#BB8506]">${price}</p>
+                <p className="ml-[30px] font-bold text-[#BB8506]">${price}</p>
             </div>
             <p className="w-[443px]">{recipe}</p>
            </div>
